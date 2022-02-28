@@ -80,7 +80,7 @@ from SimpleROT import ROT_file
 
 txt_file = "test.txt"
 
-encrypted_file = ROT_file.ROTby_encrypt_file(txt_file)
+encrypted_file = ROT_file.ROTby_encrypt_file(txt_file, 22)
 
 print(encrypted_file) # This line returns "File 'test.txt' successfully encrypted"
 ```
@@ -103,7 +103,7 @@ from SimpleROT import ROT_file
 
 txt_file = "test.txt"
 
-decrypted_file = ROT_file.ROTby_decrypt_file(txt_file)
+decrypted_file = ROT_file.ROTby_decrypt_file(txt_file, 22)
 
 print(decrypted_file) # This line returns "File 'test.txt' successfully decrypted"
 ```
